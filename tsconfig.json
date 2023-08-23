@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "isolatedModules": false,
+        "allowSyntheticDefaultImports": true,
+        "types": [
+            "webdriverio",
+            "node",
+            "webdriverio/async",
+            "@wdio/cucumber-framework",
+            "@wdio/selenium-standalone-service",
+            "@wdio/types"
+        ],
+        "target": "ES2020",
+        "strict": true,
+        "noEmit": false
+    }
+}
